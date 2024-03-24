@@ -7,7 +7,7 @@ import Base: +, *
 
 export +, *
 
-+(a::String, b::String) = *(a::String, b::String)
-*(a::String, b::Int) = repeat(a::String, b::Int)
++(a::Union{Char, String}, b::Union{Char, String}) = *(a::Union{Char, String}, b::Union{Char, String})
+*(a::Union{Char, String}, b::Int) = repeat(a::Union{Char, String}, b::Int)
 
 end # module MyJulia
