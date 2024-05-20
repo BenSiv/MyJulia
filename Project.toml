@@ -1,4 +1,7 @@
 name = "MyJulia"
-uuid = "05ffc097-bd59-415f-af17-9507819f0bbd"
-authors = ["BenSiv <bensiv92@gmail.com>"]
+uuid = "cee03f21-e0ad-475c-bd2a-d959ad0dd503"
+authors = ["Unknown "]
 version = "0.1.0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
